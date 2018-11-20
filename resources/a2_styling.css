@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Oswald:300');
+
+html{
+	min-height: 100%;
+}
+body {
+
+	text-align: center;
+	min-height: 100%;
+	}
+
+nav{
+	font-size: 25px;
+	color: green;
+}
+
+a{
+	color: green;
+}
+
+h3 {
+	font-family: 'Oswald', cursive;
+	margin-bottom: 30px;
+	font-size: 50px;
+
+}
+
+.button{
+	background-color: transparent;	
+	color: black;
+	border: 2px solid ;
+	border-radius: 8px;
+	font-size: 20px;
+	margin-bottom: 50px;
+	
+}
+
+footer{
+	color: green;
+}
+
+b{
+	font-weight: 1000;
+}
+
+.timeCost{
+	font-size: 30px;
+	margin-bottom: 2em;
+}
+
+.footerButton{
+	border: 2px solid ;
+	border-radius: 8px;
+	font-size: 15px;
+	background-color: red;
+	float: right;
+	clear: right;
+}
+
+.copyright{
+	font-size: 15px;
+	line-height: 2em;
+}
