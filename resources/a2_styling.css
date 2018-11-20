@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700|Dancing+Script|Oswald:300');
+
+html {
+	min-height: 100%;
+}
+
+
+h1 {
+	font-family:		'Noto Sans SC', sans-serif;
+	font-size: 			30pt;
+	margin-bottom: 		40px;
+}
+
+
+h2 {
+	font-family:		'Noto Sans SC', sans-serif;
+	font-size: 			25pt;
+	margin-bottom:		40px;
+}
+
+
+h3 {
+	font-family:		'Noto Sans SC', sans-serif;
+	font-size: 			17pt;
+	margin-bottom:		10px;
+}
+
+
+body {
+	text-align: 		center;
+	min-height: 		100%;
+}
+
+
+nav {
+	background-color:	#ECFFEB;
+	border-top:			12px solid #006600;
+	border-bottom:		12px solid #006600;
+	margin-bottom:		50px;
+	padding-top:		30px;	
+	padding-bottom:		30px;
+	overflow:			hidden;
+}
+
+
+nav a {
+	font-family:		'Noto Sans SC', sans-serif;
+	font-size: 			20px;
+	color: 				#006600;
+	margin-right:		15px;
+	margin-left:		15px;
+	padding:			10px;
+	border:				1px solid #006600;
+	border-radius:		4px;
+}
+
+
+nav a.current {
+	color:				#ffffff;
+	background-color:	#006600;
+}
+
+
+nav a.completed {
+	color:				#E7F5E6;
+	background-color:	#516850;
+}
+
+nav img {
+	border:				1px solid #006600;
+	border-radius:		4px;
+	width: 				50px;
+	height: 			50px;
+	padding: 			5px;
+	margin-left:		15px;
+	margin-right:		15px;
+}
+
+.button {
+	width: 				200px;
+	height:				200px;
+	background-color: 	transparent;	
+	color: 				black;
+	border: 			2px solid;
+	border-radius: 		8px;
+	font-size: 			20px;
+}
+
+.button:hover {
+	background-color: 	#006600;
+	color:				#ffffff;
+}
+
+.button_central {
+	margin-left: 		15px;
+	margin-right:		15px;
+	width: 				200px;
+	height:				200px;
+	background-color: 	transparent;	
+	color: 				black;
+	border: 			2px solid;
+	border-radius: 		8px;
+	font-size: 			20px;
+}
+
+.button_central:hover {
+	background-color: 	#006600;
+	color:				#ffffff;
+}
+
+footer {
+	border-top:			6px solid #006600;
+	position:			fixed;
+	left:				0;
+	bottom:				0;
+	width:				100%;
+	background-color:	#ECFFEB;
+	text-align: 		center;
+	padding:			10px;
+	margin-top:			10px;
+	font-family:		'Noto Sans SC', sans-serif;
+	font-size: 			15px;
+	color: 				#006600;
+}
+
+.footer_button {
+	position: 			absolute;
+    bottom:				55px;
+    right:				5px;
+	border: 			2px solid;
+	border-radius: 		8px;
+	font-size: 			15px;
+	background-color: 	red;
+}
+
+.footer_button img {
+	width: 				30px;
+	height:				30px;
+	padding: 			5px;
+}
