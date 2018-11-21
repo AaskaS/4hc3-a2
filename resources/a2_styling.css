@@ -43,7 +43,6 @@ nav {
 }
 
 
-
 nav a {
 	font-family:		'Noto Sans SC', sans-serif;
 	font-size: 			20px;
@@ -67,6 +66,13 @@ nav button.completed {
 	background-color:	#516850;
 }
 
+
+nav button.disabled {
+	color:				#000000;
+	background-color:	#bfc1c0;
+}
+
+
 nav img {
 	width: 				50px;
 	height: 			50px;
@@ -74,6 +80,7 @@ nav img {
 	margin-left:		15px;
 	margin-right:		15px;
 }
+
 
 nav button {
 	margin-left: 		5px;
@@ -88,6 +95,49 @@ nav button {
 	font-size: 			20px;
 }
 
+
+.numPad {
+	padding:			15px;
+	margin-left:		auto;
+	margin-right:		auto;
+}
+
+.numPad button {
+	vertical-align: 	top;
+	width:				80px;
+	height:				80px;
+	font-size: 			20pt;
+	background-color: 	#ffffff;
+	color:				black;
+	border:				2px solid black;
+	border-radius: 		6px;
+	margin-bottom:		10px;
+	margin-right:		5px;
+	margin-left:		5px;
+}
+
+
+.numPad button.confirm {
+	background-color: 	#ECFFEB;
+}
+
+
+.numPad button.backspace {
+	background-color:	#ffebeb;
+}
+
+
+.numPad button.backspace:active {
+	background-color:	#770f0f;
+}
+
+
+.numPad button:active {
+	background-color: 	#006600;
+	color:				#ffffff;
+}
+
+
 .button {
 	margin-left: 		5px;
 	margin-right:		5px;
@@ -101,10 +151,12 @@ nav button {
 	font-size: 			20px;
 }
 
-.button:hover {
+
+.button:active {
 	background-color: 	#006600;
 	color:				#ffffff;
 }
+
 
 footer {
 	border-top:			6px solid #006600;
@@ -121,6 +173,7 @@ footer {
 	color: 				#006600;
 }
 
+
 .footer_button {
 	position: 			absolute;
     bottom:				55px;
@@ -130,6 +183,7 @@ footer {
 	font-size: 			15px;
 	background-color: 	red;
 }
+
 
 .footer_button img {
 	width: 				30px;

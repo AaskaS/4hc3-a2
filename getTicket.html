@@ -36,25 +36,40 @@ Initial page for getting a ticket.
 <body>
 
 	<nav>
-		<img src="...back_a_step arrow thing..." alt="back_arrow">
-		<a href="....html">step 1</a>
-		<a href="....html">step 2</a>
-		<a href="....html">step 3</a>
-		<!-- ........ -->
-		<img src="...forward_a_step arrow thing..." alt="next_arrow">
+		<button onclick="location.href='main.html'"><img src="resources/back.png" alt="back">Previous</button>
+		<button class="current">Desired Time</button>
+		<button onclick="location.href='paymentMethod.html'">Payment Method</button>
+		<button onclick="location.href='confirmTicketPayment.html'">Confirm Payment</button>
+		<button onclick="location.href='printTicket.html'">Print Ticket</button>
+		<button onclick="location.href='paymentMethod.html'"><img src="resources/next.png" alt="next">Next</button>
 	</nav>
 
 
 
-	<header class="main_header">
-		<h1></h1>
-		<p></p>
+	<header>
+		<h1>Choose Parking Duration</h1>
+		<h3>Duration Selected:<h3>
+		<h2>07 H : 30 m</h2>
 	</header>
 
 
+	<div class="numPad">
+		<button>1</button>					<button>2</button>			<button>3</button><br>
+		<button>4</button>					<button>5</button>			<button>6</button><br>
+		<button>7</button>					<button>8</button>			<button>9</button><br>
+
+		<button class="confirm"><img src="resources/confirm.png" alt="delete"></button>		
+		<button>0</button>			
+		<button class="backspace"><img src="resources/backspace.png" alt="delete"></button>
+	</div>
+
+
+	<div class="cancel_btn">
+		<button class="footer_button"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
+	</div>
 
 	<footer class="footer">   
-		<p class="copyright">Copyright 2018 - Group 4 - 4HC3</p>
+		<p class="copyright">Copyright 2018 - Group 4 - COMP SCI 4HC3</p>
 	</footer>
 
 </body>
