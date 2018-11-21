@@ -11,8 +11,7 @@ Kerala Brendon		00
 Nolan Slade 		001401079
 Vyome Kishore 		00
 
-Page for payment selection.
-Icons made by https://www.flaticon.com/authors/roundicons
+Credit card payment
 -->
 
 
@@ -20,9 +19,9 @@ Icons made by https://www.flaticon.com/authors/roundicons
 
 <head>
 
-	<title>Payment Method</title>
+	<title>Pay with Credit</title>
 
-	<meta name="description" content="VANK Tickets">
+	<meta name="description" content="VANK Credit Payment">
 	<meta name="author" content="Group 4">
 	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
 	<meta charset="UTF-8">
@@ -37,22 +36,22 @@ Icons made by https://www.flaticon.com/authors/roundicons
 <body>
 
 	<nav>
-		<button onclick="location.href='getTicket.html'"><img src="resources/back.png" alt="back">Previous</button>
+		<button onclick="location.href='paymentMethod.html'"><img src="resources/back.png" alt="back">Previous</button>
 		<button class="completed" onclick="location.href='getTicket.html'">Desired Time</button>
-		<button class="current">Payment Method</button>
-		<button onclick="location.href='payWithCredit.html'">Confirm Payment</button>
-		<button onclick="location.href='payWithCredit.html'"><img src="resources/next.png" alt="next">Next</button>
+		<button class="completed" onclick="location.href='paymentMethod.html'">Payment Method</button>
+		<button class="current">Confirm Payment</button>
+		<button class="disabled"><img src="resources/next.png" alt="next">Next</button>
 	</nav>
 
 	<header>
-		<h1>Choose Payment Method</h1>
-		<h3>Payment Due for 7H:30m Parking:<h3>
+		<h1>Pay with Credit Card</h1>
+		<h3>Payment due for 7H:30m Parking:<h3>
 		<h2>$15.00</h2>
+		<h3>Either tap your card, or enter your credit card details:</h3>
 	</header>
 
-	<button class="button" onclick="location.href='payWithCoins.html'">Pay With Coins</button>
-	<button class="button" onclick="location.href='payWithCredit.html'">Pay With Credit Card</button>
-	<button class="button" onclick="location.href='payWithVank.html'">Pay with VANK card</button>
+	<br>
+	<button class="button" onclick="location.href='enterCreditDetails.html'">Enter Credit Card Details</button>
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
