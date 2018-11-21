@@ -43,6 +43,7 @@ nav {
 }
 
 
+
 nav a {
 	font-family:		'Noto Sans SC', sans-serif;
 	font-size: 			20px;
@@ -55,20 +56,18 @@ nav a {
 }
 
 
-nav a.current {
+nav button.current {
 	color:				#ffffff;
 	background-color:	#006600;
 }
 
 
-nav a.completed {
+nav button.completed {
 	color:				#E7F5E6;
 	background-color:	#516850;
 }
 
 nav img {
-	border:				1px solid #006600;
-	border-radius:		4px;
 	width: 				50px;
 	height: 			50px;
 	padding: 			5px;
@@ -76,7 +75,23 @@ nav img {
 	margin-right:		15px;
 }
 
+nav button {
+	margin-left: 		5px;
+	margin-right:		5px;
+	vertical-align: 	top;
+	width: 				200px;
+	height:				50px;
+	background-color: 	transparent;	
+	color: 				black;
+	border: 			2px solid;
+	border-radius: 		8px;
+	font-size: 			20px;
+}
+
 .button {
+	margin-left: 		5px;
+	margin-right:		5px;
+	vertical-align: 	top;
 	width: 				200px;
 	height:				200px;
 	background-color: 	transparent;	
@@ -87,23 +102,6 @@ nav img {
 }
 
 .button:hover {
-	background-color: 	#006600;
-	color:				#ffffff;
-}
-
-.button_central {
-	margin-left: 		15px;
-	margin-right:		15px;
-	width: 				200px;
-	height:				200px;
-	background-color: 	transparent;	
-	color: 				black;
-	border: 			2px solid;
-	border-radius: 		8px;
-	font-size: 			20px;
-}
-
-.button_central:hover {
 	background-color: 	#006600;
 	color:				#ffffff;
 }
