@@ -36,23 +36,29 @@ Initial page for refunding a ticket.
 <body>
 
 	<nav>
-		<img src="...back_a_step arrow thing..." alt="back_arrow">
-		<a href="....html">step 1</a>
-		<a href="....html">step 2</a>
-		<a href="....html">step 3</a>
-		<!-- ........ -->
-		<img src="...forward_a_step arrow thing..." alt="next_arrow">
+		<button onclick="location.href='getTicket.html'"><img src="resources/back.png" alt="back"></button>
+		<button onclick="location.href='...html'">Step 1</button>
+		<button onclick="location.href='...html'">Step 2</button>
+		<button onclick="location.href='...html'">Step 3</button>
+		<button onclick="location.href='payWithCredit.html'"><img src="resources/next.png" alt="next"></button>
 	</nav>
 
 
 
 	<header>
-		<h1></h1>
-		<h3><h3>
-		<h2></h2>
+		<h1>Refund Your Ticket</h1>
+		<h3>Insert Ticket Below<h3><br>
+		<h2>Or</h2>
+		<h3>Enter Ticket Number</h3>
 	</header>
 
+	<form method="post">
+		<label>Ticket Number</label>
+		<input type="number" name="ticket" value="123456789">
 
+		<input type="submit" name="submit">
+
+	</form>
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>

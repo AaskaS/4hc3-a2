@@ -157,6 +157,22 @@ nav button {
 	color:				#ffffff;
 }
 
+.coin{
+	width: 				100px;
+	height: 			100px;
+	color: 				black;
+	border: 			2px solid;
+	background-color: 	gold;
+	border-radius: 		50px;
+	margin-top: 		10px;
+}
+
+label{
+	font-family:		'Noto Sans SC', sans-serif;
+
+}
+
+
 
 footer {
 	border-top:			6px solid #006600;
