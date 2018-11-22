@@ -95,6 +95,21 @@ nav button {
 	font-size: 			20px;
 }
 
+.confirm_completion {
+	vertical-align: 	top;
+	width:				80px;
+	height:				80px;
+	font-size: 			20pt;
+	background-color: 	#0d630d;
+	color:				white;
+	border:				2px solid black;
+	border-radius: 		6px;
+	margin-bottom:		10px;
+	margin-right:		5px;
+	margin-left:		5px;
+}
+
+
 
 .numPad {
 	padding:			15px;
@@ -153,7 +168,7 @@ nav button {
 
 
 .button:active {
-	background-color: 	#006600;
+	background-color: 	#0d630d;
 	color:				#ffffff;
 }
 
@@ -194,6 +209,10 @@ footer {
 	font-family:		'Noto Sans SC', sans-serif;
 	font-size: 			15px;
 	color: 				#006600;
+}
+
+.printing-ticket {
+	padding: 15px;
 }
 
 
