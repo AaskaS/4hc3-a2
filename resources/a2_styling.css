@@ -167,11 +167,18 @@ nav button {
 	margin-top: 		10px;
 }
 
-label{
-	font-family:		'Noto Sans SC', sans-serif;
 
+label {
+	font-family:		'Noto Sans SC', sans-serif;
 }
 
+
+form input {
+	border: 			2px solid #006600;
+	border-radius: 		8px;
+	padding:			8px;
+	background-color:	#ECFFEB;
+}
 
 
 footer {
