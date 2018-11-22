@@ -1,0 +1,74 @@
+<!doctype html>
+
+
+<!-- 
+Group 4
+4HC3 Assignment 2
+Parking Meter 'VANK'
+
+Aaska Shah			00
+Kerala Brendon		00
+Nolan Slade 		001401079
+Vyome Kishore 		00
+
+Credit card payment
+-->
+
+
+<html lang="en">
+
+<head>
+
+	<title>Pay with VANK</title>
+
+	<meta name="description" content="VANK Credit Payment">
+	<meta name="author" content="Group 4">
+	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="resources/reset.css">
+	<link rel="stylesheet" type="text/css" href="resources/a2_styling.css">
+	<script type="text/javascript" src="resources/scripts.js"></script>
+
+</head>
+
+
+
+<body>
+
+	<nav>
+		<button onclick="location.href='paymentMethod.html'"><img src="resources/back.png" alt="back">Previous</button>
+		<button class="completed" onclick="location.href='getTicket.html'">Desired Time</button>
+		<button class="completed" onclick="location.href='paymentMethod.html'">Payment Method</button>
+		<button class="current">Confirm Payment</button>
+		<button class="disabled"><img src="resources/next.png" alt="next">Next</button>
+	</nav>
+
+	<header>
+		<h1>Enter Card Details</h1>
+		<h3>Payment due for 7H:30m Parking:<h3>
+		<h2>$15.00</h2>
+	</header>
+
+	<form method="post">
+		<label>Name</label>
+		<input type="text" name="name"><br>
+		<label>Card Number</label>
+		<input type="number" name="cardnum"><br>
+		<label>CVV</label>
+		<input type="password" name="cvv"><br>
+		<label>Expiration Date</label>
+		<input type="date" name="expdate">
+	</form>
+
+	
+	<div class="cancel_btn">
+		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
+	</div>
+
+	<footer class="footer">   
+		<p class="copyright">Copyright 2018 - Group 4 - COMP SCI 4HC3</p>
+	</footer>
+
+</body>
+
+</html>
