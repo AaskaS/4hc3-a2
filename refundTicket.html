@@ -31,34 +31,30 @@ Initial page for refunding a ticket.
 
 </head>
 
-
-
 <body>
 
 	<nav>
-		<button onclick="location.href='getTicket.html'"><img src="resources/back.png" alt="back"></button>
-		<button onclick="location.href='...html'">Step 1</button>
-		<button onclick="location.href='...html'">Step 2</button>
-		<button onclick="location.href='...html'">Step 3</button>
-		<button onclick="location.href='payWithCredit.html'"><img src="resources/next.png" alt="next"></button>
+		<button onclick="location.href='main.html'"><img src="resources/back.png" alt="back">Previous</button>
+		<button class="current">Ticket Number</button>
+		<button onclick="location.href='refundMethod.html'">Refund Method</button>
+		<button onclick="location.href='refundMethod.html'"><img src="resources/next.png" alt="next">Next</button>
 	</nav>
 
-
-
 	<header>
-		<h1>Refund Your Ticket</h1>
-		<h3>Insert Ticket Below<h3><br>
-		<h2>Or</h2>
-		<h3>Enter Ticket Number</h3>
+		<h1>Refund Parking Ticket</h1>
+		<h3>Either insert ticket, or enter ticket number:</h3>
+		<h2>Ticket #: 123456789</h2>
 	</header>
 
-	<form method="post">
-		<label>Ticket Number</label>
-		<input type="number" name="ticket" value="123456789">
+	<div class="numPad">
+		<button>1</button>					<button>2</button>			<button>3</button><br>
+		<button>4</button>					<button>5</button>			<button>6</button><br>
+		<button>7</button>					<button>8</button>			<button>9</button><br>
 
-		<input type="submit" name="submit">
-
-	</form>
+		<button class="confirm" onclick="location.href='refundMethod.html'"><img src="resources/confirm.png" alt="delete"></button>		
+		<button>0</button>			
+		<button class="backspace"><img src="resources/backspace.png" alt="delete"></button>
+	</div>
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
