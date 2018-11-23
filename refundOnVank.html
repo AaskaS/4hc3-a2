@@ -6,12 +6,12 @@ Group 4
 4HC3 Assignment 2
 Parking Meter 'VANK'
 
-Aaska Shah			00
-Kerala Brendon		00
+Aaska Shah			0
+Kerala Brendon		001424625
 Nolan Slade 		001401079
 Vyome Kishore 		00
 
-Credit card payment
+Where the user can manually input their member card number
 -->
 
 
@@ -19,9 +19,9 @@ Credit card payment
 
 <head>
 
-	<title>Refund on VANK</title>
+	<title>Enter VANK Card Number</title>
 
-	<meta name="description" content="VANK Credit Payment">
+	<meta name="description" content="VANK Card Number">
 	<meta name="author" content="Group 4">
 	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
 	<meta charset="UTF-8">
@@ -31,26 +31,31 @@ Credit card payment
 
 </head>
 
-
-
 <body>
 
 	<nav>
 		<button onclick="location.href='refundMethod.html'"><img src="resources/back.png" alt="back">Previous</button>
-		<button class="completed" onclick="location.href='refundMethod.html'">Refund Ticket</button>
-        <button class="current">Refund Method</button>
-		<button onclick="location.href='payWithCredit.html'">Refund Outcome</button>
-		<button onclick="location.href='payWithCredit.html'"><img src="resources/next.png" alt="next">Next</button>
+		<button class="completed" onclick="location.href='refundTicket.html'">Refund Ticket</button>
+		<button class="completed" onclick="location.href='refundMethod.html'">Refund Method</button>
+		<button class="current" onclick="location.href='refundSuccessful.html'">Refund Outcome</button>
+		<button onclick="location.href='refundSuccessful.html'" class="disabled"><img src="resources/next.png" alt="next">Next</button>
 	</nav>
 
 	<header>
 		<h1>Refund on VANK Card</h1>
-		<h3>Refund for 4H Parking:<h3>
-		<h2>$8.00</h2>
+		<h3>Enter VANK Card Number:<h3>
+		<h2>Card #: 1234567890</h2>
 	</header>
 
-	<br>
-	<button class="button" onclick="location.href='enterVankNumberRefund.html'">Enter VANK Card Number</button>
+	<div class="numPad">
+		<button>1</button>					<button>2</button>			<button>3</button><br>
+		<button>4</button>					<button>5</button>			<button>6</button><br>
+		<button>7</button>					<button>8</button>			<button>9</button><br>
+
+		<button class="confirm" onclick="location.href='refundSuccessful.html'"><img src="resources/confirm.png" alt="delete"></button>		
+		<button>0</button>			
+		<button class="backspace"><img src="resources/backspace.png" alt="delete"></button>
+	</div>
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
