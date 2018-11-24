@@ -1,0 +1,66 @@
+<!doctype html>
+
+
+<!-- 
+Group 4
+4HC3 Assignment 2
+Parking Meter 'VANK'
+
+Aaska Shah			00
+Kerala Brendon		00
+Nolan Slade 		001401079
+Vyome Kishore 		00
+
+Page to add funds to VANK Card
+Icons made by https://www.flaticon.com/authors/roundicons
+-->
+
+
+<html lang="en">
+
+<head>
+
+	<title>VANK Card Payment</title>
+
+	<meta name="description" content="VANK Tickets">
+	<meta name="author" content="Group 4">
+	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="resources/reset.css">
+	<link rel="stylesheet" type="text/css" href="resources/a2_styling.css">
+	<script type="text/javascript" src="resources/scripts.js"></script>
+
+</head>
+
+<body>
+
+	<nav>
+		<button onclick="location.href='addFunds.html'"><img src="resources/back.png" alt="back">Previous</button>
+		<button class="completed" onclick="location.href='cardServices.html'">VANK Card</button>
+		<button class="completed" onclick="location.href='currentBalance.html'">Balance</button>		
+		<button class="completed" onclick="location.href='addFunds.html'">Add Funds</button>
+		<button class="current">Method</button>
+		<button onclick="location.href='fundWithCreditTap.html'">Confirm</button>
+		<button onclick="location.href='fundWithCreditTap.html'"><img src="resources/next.png" alt="next">Next</button>
+	</nav>
+
+	<header>
+		<h1>Choose Fund Methods</h1>
+		<h3>Payment Due for:<h3>
+		<h2>$20.00</h2>
+	</header>
+
+	<button class="button" onclick="location.href='fundWithCoins.html'">Pay With Coins</button>
+	<button class="button" onclick="location.href='fundWithCreditTap.html'">Pay With Credit Card</button>
+
+	<div class="cancel_btn">
+		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
+	</div>
+
+	<footer class="footer">   
+		<p class="copyright">Copyright 2018 - Group 4 - COMP SCI 4HC3</p>
+	</footer>
+
+</body>
+
+</html>

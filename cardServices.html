@@ -11,7 +11,7 @@ Kerala Brendon		00
 Nolan Slade 		001401079
 Vyome Kishore 		00
 
-Initial page for getting a ticket.
+VANK card services page
 -->
 
 
@@ -19,9 +19,9 @@ Initial page for getting a ticket.
 
 <head>
 
-	<title>Get a Ticket</title>
+	<title>VANK Card Services</title>
 
-	<meta name="description" content="VANK Tickets">
+	<meta name="description" content="VANK Refund">
 	<meta name="author" content="Group 4">
 	<meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0"/>
 	<meta charset="UTF-8">
@@ -35,16 +35,19 @@ Initial page for getting a ticket.
 
 	<nav>
 		<button onclick="location.href='main.html'"><img src="resources/back.png" alt="back">Previous</button>
-		<button class="current">Desired Time</button>
-		<button onclick="location.href='paymentMethod.html'">Payment Method</button>
-		<button onclick="location.href='payWithCredit.html'">Confirm Payment</button>
-		<button onclick="location.href='paymentMethod.html'"><img src="resources/next.png" alt="next">Next</button>
+		<button class="current">VANK Card</button>
+		<button onclick="location.href='currentBalance.html'">Balance</button>		
+		<button onclick="location.href='addFunds.html'">Add Funds</button>
+		<button onclick="location.href='vankCardPayment.html'">Method</button>
+		<button onclick="location.href='fundWithCreditTap.html'">Confirm</button>
+		<button onclick="location.href='currentBalance.html'"><img src="resources/next.png" alt="next">Next</button>
+
 	</nav>
 
 	<header>
-		<h1>Choose Parking Duration</h1>
-		<h3>Duration Selected:<h3>
-		<h2>07 H : 30 m</h2>
+		<h1>VANK Card Log In</h1>
+		<h3>Enter VANK Card Number:<h3>
+		<h2>Card #: 1234567890</h2>
 	</header>
 
 	<div class="numPad">
@@ -52,7 +55,7 @@ Initial page for getting a ticket.
 		<button>4</button>					<button>5</button>			<button>6</button><br>
 		<button>7</button>					<button>8</button>			<button>9</button><br>
 
-		<button class="confirm" onclick="location.href='paymentMethod.html'"><img src="resources/confirm.png" alt="delete"></button>		
+		<button class="confirm" onclick="location.href='currentBalance.html'"><img src="resources/confirm.png" alt="delete"></button>		
 		<button>0</button>			
 		<button class="backspace"><img src="resources/backspace.png" alt="delete"></button>
 	</div>
