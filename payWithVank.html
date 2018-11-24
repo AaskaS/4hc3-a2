@@ -49,8 +49,17 @@ Credit card payment
 	</header>
 
 	<br>
-	<button class="button" onclick="location.href='enterVankNumber.html'">Enter VANK Card Number</button>
 
+	<div class="numPad">
+		<button>1</button>					<button>2</button>			<button>3</button><br>
+		<button>4</button>					<button>5</button>			<button>6</button><br>
+		<button>7</button>					<button>8</button>			<button>9</button><br>
+
+		<button class="confirm" onclick="location.href='paymentSuccessful.html'"><img src="resources/confirm.png" alt="delete"></button>		
+		<button>0</button>			
+		<button class="backspace"><img src="resources/backspace.png" alt="delete"></button>
+	</div>
+	
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
 	</div>

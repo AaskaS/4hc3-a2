@@ -1,0 +1,53 @@
+TODO
+Pages:
+[x] Main
+[x] getTicket
+[x] paymentMethod
+[x] payWithCoins
+[x] payWithCredit
+[x] payWithVank
+[x] enterCreditDetails
+[x] enterVankNumber
+[x] paymentSuccessful
+[x] refundTicket
+[x] refundMethod
+[x] refundOnCredit
+[x] refundOnVank
+[x] refundSuccessful
+[x] cardServices
+[x] addFunds
+[x] vankCardPayment
+[x] fundWithCoins
+[x] fundWithCreditTap
+[x] fundCreditDetails
+[x] fundsAdded
+
+Fixes:
+[] Alignment of Previous/next
+[] Choose Fund Methods -> Choose Payment Method
+[] Vank card log in includes tap
+
+Decisions to make:
+[] How do we emphasize tap better
+[] Need to clear up what goes in the nav bar and how to operate it
+
+Flow for getting a ticket with coin:
+main -> getTicket -> paymentMethod -> payWithCoins -> "Automatically to successful once correct amount"
+
+Flow for getting a ticket with credit:
+main -> getTicket -> paymentMethod -> payWithCredit -> enterCreditDetails -> paymentSuccessful
+
+Flow for getting a ticket with Vank:
+main -> getTicket -> paymentMethod -> payWithVank -> enterVankNumber -> paymentSuccessful
+
+Flow for refunding a ticket in coins:
+main -> refundTicket -> refundMethod -> refundSuccessful
+
+Flow for refunding a ticket on credit:
+main -> refundTicket -> refundMethod -> refundOnCredit -> refundSuccessful
+
+Flow for refunding a ticket on Vank:
+main -> refundTicket -> refundMethod -> refundOnVank -> refundSuccessful
+
+Flow for checking Vank Balance:
+main -> cardServices -> 

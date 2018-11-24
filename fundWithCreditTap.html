@@ -53,7 +53,17 @@ Add funds with redit card payment
 	</header>
 
 	<br>
-	<button class="button" onclick="location.href='fundCreditDetails.html'">Enter Credit Card Details</button>
+	<form>
+		<label>Name:</label><br>
+		<input type="text" name="name"><br><br>
+		<label>Card Number:</label><br>
+		<input type="text" name="cardnum" maxlength="16"><br><br>
+		<label>CVV:</label><br>
+		<input type="text" name="cvv" maxlength="3"><br><br>
+		<label>Expiration Date:</label><br>
+		<input type="date" name="expdate"><br><br>
+	</form>
+	<button class="confirm_completion" onclick="location.href='fundsAdded.html'"><img src="resources/confirm.png" alt="confirm"></button>	
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel Transaction</button><br>
