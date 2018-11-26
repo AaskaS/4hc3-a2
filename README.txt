@@ -26,6 +26,7 @@ Notable Extra Features:
 
 Design Decisions & Other Info:
 
+- Maximize screen size - this interface was designed for a large digital display on a digital parking meter
 - We provided static card numbers and payment amounts instead of dynamically generating page content
 	- This decision allowed us to show final content format, while still allowing easy and quick
 - We decided to disable forward navigation through the nav bar, but allow backwards navigation.
