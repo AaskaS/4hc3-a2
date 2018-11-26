@@ -59,11 +59,17 @@ nav button.current {
 	background-color:	#006600;
 }
 
-
+/*
 nav button.completed {
 	color:				#E7F5E6;
 	background-color:	#516850;
 }
+*/
+nav button.completed {
+	color:				black;
+	background-color:	transparent;
+}
+
 
 
 nav button.disabled {
@@ -101,8 +107,8 @@ nav button {
 	width:				80px;
 	height:				80px;
 	font-size: 			20pt;
-	background-color: 	#0d630d;
-	color:				white;
+	background-color: 	#ECFFEB;
+	color:				black;
 	border:				2px solid black;
 	border-radius: 		6px;
 	margin-bottom:		10px;
@@ -110,6 +116,11 @@ nav button {
 	margin-left:		5px;
 }
 
+
+.confirm_completion:active {
+	background-color: 	#006600;
+	color:				#ffffff;
+}
 
 
 .numPad {
