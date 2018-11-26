@@ -45,16 +45,16 @@ Icons made by https://www.flaticon.com/authors/roundicons
 	<header>
 		<h1>Pay with Coins</h1>
 		<h3>Payment due for 7H:30m Parking:<h3>
-		<h2>$15.00</h2>
+		<h2 id="payVal">$15.00</h2>
 		<h3>----- Insert Your Coins -----</h3>
 	</header>
 
 	<!-- Need someone to script the amount decrementing - when 0 or less is hit -> go to final page and show change (if any) -->
-	<button class="coin">$0.05</button>
-	<button class="coin">$0.10</button>
-	<button class="coin">$0.25</button>
-	<button class="coin">$1</button>
-	<button class="coin">$2</button>
+	<button class="coin" onclick="return nickel()">$0.05</button>
+	<button class="coin" onclick="return dime()">$0.10</button>
+	<button class="coin" onclick="return quarter()">$0.25</button>
+	<button class="coin" onclick="return loonie()">$1</button>
+	<button class="coin" onclick="return toonie()">$2</button>
 
 	<div class="cancel_btn">
 		<button class="footer_button" onclick="location.href='main.html'"><img src="resources/close.png" alt="cancel">Cancel &amp; Exit to Menu</button><br>

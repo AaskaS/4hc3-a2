@@ -27,7 +27,7 @@ Landing page for parking meter interface.
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="resources/reset.css">
 	<link rel="stylesheet" type="text/css" href="resources/a2_styling.css">
-	<script type="text/javascript" src="resources/scripts.js"></script>
+	
 
 </head>
 
@@ -39,11 +39,11 @@ Landing page for parking meter interface.
 	<header>
 		<h1>Payment Successful</h1>
 		<h3>Amount paid:</h3>
-		<h2>$15.00</h2>
+		<h2 >$15.00</h2>
     </header>
     
-    <body>
-        <h3>Change Due: $0.00</h3>
+    <body onload="return change()">
+        <h3 id="paySucc">Change Due: $0.00</h3>
         <div class = "printing-ticket">
             <h3>Printing ticket for:</h2>
             <h2>7.5 hours</h3>
@@ -57,5 +57,6 @@ Landing page for parking meter interface.
 	</footer>
 
 </body>
+	<script type="text/javascript" src="resources/scripts.js"></script>
 
 </html>
