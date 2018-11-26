@@ -1,0 +1,20 @@
+4HC3 Assignment 2
+Group 4
+
+Chosen project: Digital Parking Meter
+
+Aaska Shah 		001422791
+Kerala Brendon		001424625
+Nolan Slade 		001401079
+Vyome Kishore		001406201
+
+- - - - - - - - - - - - - -
+
+Main Page:
+
+Source/main.html
+
+Go to the above html file and proceed with any desired
+navigation. You will need a web browser to do this.
+
+- - - - - - - - - - - - - -
